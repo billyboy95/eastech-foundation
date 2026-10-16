@@ -50,8 +50,10 @@ h1, h2, h3, h4 { font-family: "Montserrat", sans-serif; line-height: 1.15; }
   backdrop-filter: blur(16px);
   border-bottom: 1px solid rgba(212, 164, 55, 0.2);
 }
-.nav-inner { display: flex; align-items: center; justify-content: space-between; min-height: 76px; gap: 24px; }
-.brand { display: flex; align-items: center; gap: 12px; color: #fff; }
+.nav-inner { display: flex; align-items: center; justify-content: space-between; min-height: 136px; gap: 24px; }
+.brand { display: flex; align-items: center; gap: 12px; color: #fff; flex: 0 0 auto; }
+.brand-logo { display: block; height: 120px; width: auto; max-width: none; max-height: 120px; object-fit: contain; }
+footer .brand-logo { height: 176px; max-height: 176px; }
 .mark {
   width: 44px; height: 44px; border-radius: 10px; background: var(--gold);
   color: var(--navy); font-family: "Montserrat", sans-serif; font-weight: 900;
@@ -198,7 +200,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 @media (max-width: 1200px) {
   .menu-btn { display: block; }
   .nav-links {
-    display: none; position: absolute; left: 0; right: 0; top: 76px;
+    display: none; position: absolute; left: 0; right: 0; top: 100%;
     background: var(--navy); flex-direction: column; padding: 18px 24px 28px; align-items: flex-start;
     border-bottom: 1px solid rgba(212,164,55,.2);
   }
