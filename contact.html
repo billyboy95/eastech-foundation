@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact | EASTC Foundation NPC</title>
-<meta name="description" content="Contact EASTC Foundation in Kempton Park.">
+<title>Contact staff &amp; management | EASTC Foundation NPC</title>
+<meta name="description" content="Contact EASTC Foundation staff and management in Kempton Park. Department lines that are not published are marked to be confirmed.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
 <link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body class="foundation">
@@ -18,8 +18,7 @@
 <header class="nav">
   <div class="wrap nav-inner">
     <a class="brand" href="index.html">
-      <div class="mark">EF</div>
-      <div><strong>EASTC Foundation</strong><span>NPC · South Africa</span></div>
+      <img class="brand-logo" src="assets/img/eastc-foundation-logo.png" alt="EASTC Foundation">
     </a>
     <button class="menu-btn" aria-label="Menu">☰</button>
     <nav class="nav-links">
@@ -32,27 +31,41 @@
       <a href="campus.html">Campus</a>
       <a href="newsroom.html">Newsroom</a>
       <a href="contact.html">Contact</a>
-      <a class="btn btn-gold" href="donate.html">Donate</a>
+      <a class="btn btn-gold" href="pay.html">Pay / Donate</a>
     </nav>
   </div>
 </header>
 
 <main id="main">
-<section class="page-hero"><div class="wrap"><div class="eyebrow">Contact</div><h1>We would like to hear from you</h1><p>Kempton Park, South Africa · info@eastcfoundation.org.za</p></div></section>
+<section class="page-hero"><div class="wrap"><div class="eyebrow">Contact staff &amp; management</div><h1>Reach the right desk</h1><p>43 Maxwell Street, Kempton Park · info@eastcfoundation.org.za · 011 394 1488 · 082 605 1134</p></div></section>
 <section>
-  <div class="wrap grid-2">
-    <form class="panel" data-demo>
-      <div class="form-row"><div><label for="field-1">Name</label><input id="field-1" required></div><div><label for="field-2">Organisation</label><input id="field-2"></div></div>
-      <label for="field-3">Email</label><input id="field-3" type="email" required autocomplete="email">
-      <label for="field-4">I am</label>
-      <select id="field-4"><option>A prospective donor</option><option>A CSI / ESG partner</option><option>A government or SETA partner</option><option>A student or parent</option><option>Media</option></select>
-      <label for="field-5">Message</label><textarea id="field-5" required></textarea>
-      <button class="btn btn-gold" type="submit">Send message</button>
-      <p class="success">Message received. We will respond from the Foundation inbox.</p>
-    </form>
-    <div>
-      <div class="panel" style="margin-bottom:16px"><h3>Office</h3><p>43 Maxwell Street, Kempton Park<br><a href="mailto:info@eastcfoundation.org.za">info@eastcfoundation.org.za</a><br><a href="tel:+27113941488">011 394 1488</a> · <a href="tel:+27826051134">082 605 1134</a></p></div>
-      <div class="panel"><h3>Sister institution</h3><p>For academic admissions visit <a href="https://eastech-institute.co.za/admissions.html">EASTECH Institute</a>.</p></div>
+  <div class="wrap">
+    <div data-directory></div>
+    <div class="grid-2" style="margin-top:36px;align-items:start">
+      <form class="panel" data-contact-form>
+        <h3>Send a message</h3>
+        <label for="contact-name">Name</label>
+        <input id="contact-name" name="name" required autocomplete="name">
+        <label for="contact-email">Email</label>
+        <input id="contact-email" name="email" type="email" required autocomplete="email">
+        <label for="contact-department">Department</label>
+        <select id="contact-department" name="department" required>
+          <option>Admissions</option>
+          <option>Finance</option>
+          <option>Student support</option>
+          <option>Management</option>
+        </select>
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" name="message" required></textarea>
+        <button class="btn btn-gold" type="submit">Send message</button>
+        <p class="success" role="status"></p>
+        <p class="note" data-mailto-note>No form endpoint is configured. Send opens an email to info@eastcfoundation.org.za.</p>
+      </form>
+      <div class="panel">
+        <h3>Academic admissions</h3>
+        <p>This Foundation site does not publish a separate admissions desk. For institute admissions, use the page already linked here: <a href="https://eastech-institute.co.za/admissions.html">EASTECH Institute admissions</a>.</p>
+        <p style="margin-top:12px">The campus email published on this site is <a href="mailto:queries@eastc.co.za">queries@eastc.co.za</a>.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -62,8 +75,7 @@
   <div class="wrap foot-grid">
     <div>
       <a class="brand" href="index.html" style="margin-bottom:16px;display:inline-flex">
-        <div class="mark">EF</div>
-        <div><strong>EASTC Foundation</strong><span>NPC · South Africa</span></div>
+        <img class="brand-logo" src="assets/img/eastc-foundation-logo.png" alt="EASTC Foundation">
       </a>
       <p>The social impact and development arm of the EASTC Technocentric Varsity ecosystem — expanding technical education, workforce readiness, and community resilience across Africa.</p>
     </div>
@@ -84,7 +96,7 @@
     </div>
     <div>
       <h4>Get involved</h4>
-      <a href="donate.html">Donate</a>
+      <a href="pay.html">Pay / Donate</a>
       <a href="apply.html">Apply for support</a>
       <a href="partners.html">Partner with us</a>
       <a href="mailto:info@eastcfoundation.org.za">info@eastcfoundation.org.za</a>
@@ -97,6 +109,7 @@
   </div>
 </footer>
 
+<script src="assets/js/site-config.js"></script>
 <script src="assets/js/site.js"></script>
 </body>
 </html>

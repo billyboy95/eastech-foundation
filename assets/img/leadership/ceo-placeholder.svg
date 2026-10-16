@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" role="img" aria-label="Placeholder graphic for the Chief Executive Officer">
+  <rect width="400" height="480" fill="#0B1F3A"/>
+  <circle cx="200" cy="168" r="78" fill="none" stroke="#D4A437" stroke-width="10"/>
+  <path d="M200 108 L232 168 L200 228 L168 168 Z" fill="none" stroke="#E8BC5A" stroke-width="6"/>
+  <text x="200" y="176" text-anchor="middle" fill="#D4A437" font-family="Montserrat, Arial, sans-serif" font-size="28" font-weight="700">CEO</text>
+  <text x="200" y="300" text-anchor="middle" fill="#F4F6F9" font-family="Montserrat, Arial, sans-serif" font-size="15" font-weight="700">PHOTO TO BE CONFIRMED</text>
+  <text x="200" y="332" text-anchor="middle" fill="#E8BC5A" font-family="Poppins, Arial, sans-serif" font-size="13">EASTC Foundation NPC</text>
+</svg>
